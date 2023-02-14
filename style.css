@@ -1,57 +1,39 @@
 html, body {
     height: 100%;
+    background-image: url(aircraft-g2eed01448_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 }
 
 h1 {
     color:whitesmoke;
-    margin-top: 2.5%;
+    margin-top: 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-    line-height: 40px;
+    line-height: 15px;
     text-align: center;
 }
 
-iframe {
-    margin-top: 2%;
-}
-
-body {
-    background-image: url(aircraft-g2eed01448_1920.jpg);
-    background-size: cover;
-    text-align: center;
-    
-}
 
 p1 {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    line-height: 80px;
+    font-size: 15px;
+    line-height: 40px;
 }
 
 p2 {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    line-height: 20px;
-}
-
-p {
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
+    line-height: 10px;
+    margin-bottom: 1.5%;
 }
 
 .text {
  text-align: center;
-}
-
-.full_screen {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-size: small;
+ margin-bottom: 50px;
 }
 
 .button {
@@ -63,6 +45,20 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .button_metar {
+    background-color: #0057a3;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
