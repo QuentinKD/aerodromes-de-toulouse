@@ -15,36 +15,23 @@ h1 {
     text-align: center;
 }
 
-
-p1 {
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 40px;
-}
-
-p2 {
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 10px;
-    margin-bottom: 1.5%;
-}
-
 .text {
  text-align: center;
  margin-bottom: 50px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+ color: whitesmoke;
 }
 
 .button {
     background-color: #5f5f5f;
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
